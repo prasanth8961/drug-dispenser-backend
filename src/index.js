@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
-import ProductsRoute from "./src/Routers/MedicinesRoute.js";
-import authRoute from "./src/Routers/AuthRouter.js";
-import smsRoute from "./src/Routers/SMSroutes.js"
-import PrescriptionRoute from "./src/Routers/PrescriptionRouter.js"
-import PatientRoute from "./src/Routers/PatientsRoute.js"
-import doctorsRoute from "./src/Routers/DoctorsRoute.js"
+import ProductsRoute from "./Routers/MedicinesRoute.js";
+import authRoute from "./Routers/AuthRouter.js";
+import smsRoute from "./Routers/SMSroutes.js"
+import PrescriptionRoute from "./Routers/PrescriptionRouter.js"
+import PatientRoute from "./Routers/PatientsRoute.js"
+import doctorsRoute from "./Routers/DoctorsRoute.js"
 
 const app = express();
 const PORT = 7000;
